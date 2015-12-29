@@ -1,0 +1,12 @@
+<%@ Page Language="C#" %>
+<% HelloWorldLabel.Text = "witam serdecznie(nazywam sie tak i tak)"; %>
+<html>
+    <head runat="server">
+        <title>witam</title>
+    </head>
+    <body>
+        <form id="form1" runat="server">
+            <asp:Label runat="server" id="HelloWorldLabel"></asp:Label>
+        </form>
+    </body>
+</html>
